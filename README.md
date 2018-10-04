@@ -2,4 +2,4 @@
 
 1. Esquema de base de datos
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/jpcastro087/inscripciones/blob/master/DER.png)

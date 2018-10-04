@@ -4,7 +4,7 @@
 
 ![alt text](https://github.com/jpcastro087/inscripciones/blob/master/DER.png)
 
-#<b>a. Cuáles serían los tipos de datos de cada campo de cada tabla?</b>
+<b>a. Cuáles serían los tipos de datos de cada campo de cada tabla?</b>
 
 Les dejo los tipos de datos definidos en el DER
 

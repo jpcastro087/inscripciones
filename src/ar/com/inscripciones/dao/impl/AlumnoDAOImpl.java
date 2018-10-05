@@ -56,5 +56,5 @@ public class AlumnoDAOImpl implements DAO<Alumno> {
 		session.close();
 		return a;
 	}
-
+	
 }

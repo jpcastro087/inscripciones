@@ -2,16 +2,17 @@ package ar.com.inscripciones.dao.impl;
 
 import java.util.List;
 
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import ar.com.inscripciones.dao.DAO;
+import ar.com.inscripciones.dao.CursoDAO;
 import ar.com.inscripciones.entities.Curso;
 @Repository
-public class CursoDAOImpl implements DAO<Curso>{
+public class CursoDAOImpl implements CursoDAO<Curso>{
 
 	@Autowired
 	private SessionFactory sessionFactory;
@@ -33,6 +34,21 @@ public class CursoDAOImpl implements DAO<Curso>{
 		session.close();
 		return CursoList;
 	}
+	
+	@Override
+	public List<Curso> getCursosPermitidosByIdAlumno(Long idAlumno){
+		Session session = this.sessionFactory.openSession();
+		Query query = session.createSQLQuery(
+				"CALL PCR_CURSOS_PERMITIDOS_CURSAR_ALUMNO(:idAlumno)")
+				.addEntity(Curso.class)
+				.setParameter("idAlumno", idAlumno);
+		
+		List<Curso> cursos = query.list();
+		
+		session.close();
+		return cursos;
+	}
+	
 
 	public void setSessionFactory(SessionFactory sessionFactory) {
 		this.sessionFactory = sessionFactory;

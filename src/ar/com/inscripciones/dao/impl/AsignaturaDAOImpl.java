@@ -2,6 +2,7 @@ package ar.com.inscripciones.dao.impl;
 
 import java.util.List;
 
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -10,6 +11,7 @@ import org.springframework.stereotype.Repository;
 
 import ar.com.inscripciones.dao.DAO;
 import ar.com.inscripciones.entities.Asignatura;
+import ar.com.inscripciones.entities.User;
 @Repository
 public class AsignaturaDAOImpl implements DAO<Asignatura>{
 
@@ -37,6 +39,7 @@ public class AsignaturaDAOImpl implements DAO<Asignatura>{
 	public void setSessionFactory(SessionFactory sessionFactory) {
 		this.sessionFactory = sessionFactory;
 	}
+	
 
 	@Override
 	public Asignatura getById(Long id) {

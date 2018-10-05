@@ -16,6 +16,12 @@ Normalicé las tablas <b>docentes</b> y <b>asignaturas</b>, en la tabla <b>curso
 
 Sugeriría agregar índices a los campos con claves foraneas y primary keys
 
+
+
+
+
+
+
 <b>2. Proveer consultas para determinar:</b>
 
 <b>A. Cursos a los que está inscripto y cursando un alumno dado en el ciclo lectivo

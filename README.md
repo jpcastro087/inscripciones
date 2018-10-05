@@ -88,6 +88,14 @@ correspondiente.</b>
 
 No se pudo implementar por falta de tiempo
 
+<b>c. Permita a un alumno inscribirse a una materia.</b>
+Están implementadas las llamadas rest
+http://localhost:8080/Inscripciones/user/{username}/{password}
+<br>y
+<>http://localhost:8080/Inscripciones/curso/permitidoscursaralumno/{id}
+<br><br>
+la idea era ensamblar las llamadas para que el alumno pueda inscribirse via mobile ios/android nativo en una aplicación de prueba desarrollada con react-native en la página https://snack.expo.io, la implementacion de las llamadas se pueden ver en el paquete controllers. 
+
 
 
 

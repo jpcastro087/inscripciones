@@ -89,7 +89,7 @@ correspondiente.</b>
 No se pudo implementar por falta de tiempo
 
 <b>C. Permita a un alumno inscribirse a una materia.</b>
-Están implementadas las llamadas rest
+<br>Están implementadas las llamadas rest
 http://localhost:8080/Inscripciones/user/{username}/{password}
 <br>y<br>
 http://localhost:8080/Inscripciones/curso/permitidoscursaralumno/{id}

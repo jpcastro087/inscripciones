@@ -46,9 +46,11 @@ inner join docentes d on i.id_docente = d.id
 where i.estado = 1 and asig.id = 1
 
 <b>c. Cursos a los que el alumno puede inscribirse en el ciclo lectivo actual.</b>
+
 Ir al archivo <b>PCR_CURSOS_PERMITIDOS_CURSAR_ALUMNO.sql</b> en el codigo fuente
 
 <b>d. Alumnos que recursen una materia</b>
+
 Ir al archivo <b>PCR_ALUMNOS_RECURSANTES.sql</b> en el codigo fuente
 
 

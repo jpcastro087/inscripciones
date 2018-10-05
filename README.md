@@ -64,12 +64,19 @@ Ir al archivo <b>PCR_ALUMNOS_RECURSANTES.sql</b> en el codigo fuente
 
 <b>3. Desarrollar una aplicación que:</b>
 
-A. Registre y edite alumnos
+<b>A. Registre y edite alumnos</b>
 
-El código fuente se encuentra en esta rama y la aplicacion se puede probar desde el siguiente enlace:
+El código fuente se encuentra en este repositorio github y la aplicacion se puede probar desde el siguiente enlace:
 <br>
 http://jpcastro087.ddns.net:8080/Inscripciones-0.0.1-SNAPSHOT/altaAlumno
 
+
+<br><br><br>
+
+<b>Screenshot:</b>
+
+
+![alt text](https://github.com/jpcastro087/inscripciones/blob/master/altaAlumno.png)
 
 
 

@@ -6,7 +6,7 @@
 
 <b>a. Cuáles serían los tipos de datos de cada campo de cada tabla?</b>
 
-Les dejo los tipos de datos definidos en el DER
+Dejo los tipos de datos definidos en el DER
 
 <b>b. Realizarías algún cambio en el modelo? (justificar cualquiera sea la respuesta)</b>
 

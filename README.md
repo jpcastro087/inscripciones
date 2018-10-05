@@ -66,17 +66,29 @@ Ir al archivo <b>PCR_ALUMNOS_RECURSANTES.sql</b> en el codigo fuente
 
 <b>A. Registre y edite alumnos</b>
 
-El código fuente se encuentra en este repositorio github y la aplicacion se puede probar desde el siguiente enlace:
+El código fuente se encuentra en este repositorio y la aplicacion <b>se puede probar</b> desde el siguiente enlace:
 <br>
 http://jpcastro087.ddns.net:8080/Inscripciones-0.0.1-SNAPSHOT/altaAlumno
 
 
-<br><br><br>
+<br><br>
 
 <b>Screenshot:</b>
 
 
 ![alt text](https://github.com/jpcastro087/inscripciones/blob/master/altaAlumno.png)
+
+
+
+<b>B. Provea los siguientes reportes:
+<br>i. Estado académico de un alumno dado (estado de materias cursadas,
+materias no regularizadas y materias por cursar)
+<br>ii. Para una asignatura dada, los alumnos inscriptos y el docente
+correspondiente.</b>
+
+No se pudo implementar por falta de tiempo
+
+
 
 
 

@@ -59,7 +59,14 @@ Ir al archivo <b>PCR_CURSOS_PERMITIDOS_CURSAR_ALUMNO.sql</b> en el codigo fuente
 
 Ir al archivo <b>PCR_ALUMNOS_RECURSANTES.sql</b> en el codigo fuente
 
+<br><br><br>
 
+
+<b>3. Desarrollar una aplicación que:</b>
+
+A. Registre y edite alumnos
+
+Parte de la aplicación es el código que subí en este repositorio
 
 
 

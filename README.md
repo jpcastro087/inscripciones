@@ -81,9 +81,9 @@ http://jpcastro087.ddns.net:8080/Inscripciones-0.0.1-SNAPSHOT/altaAlumno
 
 
 <b>b. Provea los siguientes reportes:
-i. Estado académico de un alumno dado (estado de materias cursadas,
+<br>i. Estado académico de un alumno dado (estado de materias cursadas,
 materias no regularizadas y materias por cursar)
-ii. Para una asignatura dada, los alumnos inscriptos y el docente
+<br>ii. Para una asignatura dada, los alumnos inscriptos y el docente
 correspondiente.</b>
 
 No se pudo implementar por falta de tiempo

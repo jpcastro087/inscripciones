@@ -66,7 +66,7 @@ Ir al archivo <b>PCR_ALUMNOS_RECURSANTES.sql</b> en el codigo fuente
 
 <b>A. Registre y edite alumnos</b>
 
-El código fuente se encuentra en este repositorio y la aplicacion <b>se puede probar</b> desde el siguiente enlace:
+El código fuente se encuentra en este repositorio y la aplicacion se puede probar desde el siguiente enlace:
 <br>
 http://jpcastro087.ddns.net:8080/Inscripciones-0.0.1-SNAPSHOT/altaAlumno
 
@@ -89,7 +89,7 @@ correspondiente.</b>
 No se pudo implementar por falta de tiempo
 
 <b>C. Permita a un alumno inscribirse a una materia.</b>
-Están implementadas las llamadas rest
+<br>Están implementadas las llamadas rest<br>
 http://localhost:8080/Inscripciones/user/{username}/{password}
 <br>y<br>
 http://localhost:8080/Inscripciones/curso/permitidoscursaralumno/{id}
